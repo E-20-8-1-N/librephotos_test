@@ -1,0 +1,17 @@
+ipdb==0.13.13
+ipython==8.29.0
+ipython-genutils==0.2.0
+Pygments==2.18.0
+prompt-toolkit==3.0.48
+nose==1.3.7
+pylint==3.3.1
+pylint-django==2.6.1
+flake8==7.1.1
+pre-commit==4.0.1
+coverage==7.6.4
+Faker==30.8.2
+isort==5.13.2
+setuptools==75.3.0
+black==24.10.0
+pyfakefs==5.7.1
+pytest==8.3.3
