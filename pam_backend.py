@@ -1,11 +1,11 @@
-import os
-import django
+#import os
+#import django
 
 # Set the settings module environment variable
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'librephotos.settings.production')  # Adjust accordingly
+#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'librephotos.settings.production')  # Adjust accordingly
 
 # Setup Django
-django.setup()
+#django.setup()
 
 from django.contrib.auth.backends import BaseBackend
 from django.contrib.auth.models import User
