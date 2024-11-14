@@ -72,6 +72,7 @@ INSTALLED_APPS = [
     "constance",
     "constance.backends.database",
     "django_q",
+    'django_pam',
 ]
 
 AUTHENTICATION_BACKENDS = [
