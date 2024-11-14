@@ -72,13 +72,18 @@ INSTALLED_APPS = [
     "constance",
     "constance.backends.database",
     "django_q",
-    'django_pam',
 ]
 
 AUTHENTICATION_BACKENDS = [
   'django_pam.auth.backends.PAMBackend',
   'django.contrib.auth.backends.ModelBackend',
 ]
+
+PAM_USERS = {
+    "is_active": True,
+    "is_staff": True,
+    "is_superuser": True,
+}
 
 # Defaults to number of cores of the host system
 HEAVYWEIGHT_PROCESS_ENV = os.environ.get("HEAVYWEIGHT_PROCESS", None)
