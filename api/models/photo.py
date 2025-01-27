@@ -396,7 +396,7 @@ class Photo(models.Model):
             ):
                 createThumbnail(
                     inputPath=self.main_file.path,
-                    outputHeight=1080,
+                    outputHeight=500,
                     outputPath="square_thumbnails",
                     hash=self.image_hash,
                     fileType=".webp",
