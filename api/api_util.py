@@ -54,7 +54,7 @@ def has_hidden_attribute(filepath):
         return False
 
 
-def path_to_dict(path, recurse=2):
+def path_to_dict(path, recurse=999):
     d = {"title": os.path.basename(path), "absolute_path": path}
     if recurse > 0:
         d["children"] = [
