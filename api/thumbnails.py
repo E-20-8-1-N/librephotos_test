@@ -61,7 +61,7 @@ def createAnimatedThumbnail(inputPath, outputHeight, outputPath, hash, fileType)
             "-i",
             inputPath,
             "-to",
-            "00:00:05",
+            "00:00:03",
             "-vcodec",
             "libx264",
             "-crf",
