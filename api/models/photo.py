@@ -406,7 +406,7 @@ class Photo(models.Model):
             ):
                 createAnimatedThumbnail(
                     inputPath=self.main_file.path,
-                    outputHeight=1080,
+                    outputHeight=720,
                     outputPath="square_thumbnails",
                     hash=self.image_hash,
                     fileType=".mp4",
