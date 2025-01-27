@@ -64,7 +64,7 @@ def createAnimatedThumbnail(inputPath, outputHeight, outputPath, hash, fileType)
             "libx264",
             "-crf",
             "20",
-            "-c:a copy",
+            "-an",
             "-filter:v",
             f"scale=-2:{outputHeight}",
             output,
