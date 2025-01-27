@@ -60,8 +60,6 @@ def createAnimatedThumbnail(inputPath, outputHeight, outputPath, hash, fileType)
             "ffmpeg",
             "-i",
             inputPath,
-            "-to",
-            "00:00:03",
             "-vcodec",
             "libx264",
             "-crf",
