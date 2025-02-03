@@ -15,6 +15,7 @@ class PersonFaceListSerializer(serializers.ModelSerializer):
             "face_url",
             "photo",
             "timestamp",
+            "person",
             "person_label_probability",
         ]
 
