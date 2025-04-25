@@ -2,6 +2,7 @@ Django==4.2.16
 django-constance==4.1.2
 django-cors-headers==4.6.0
 git+https://github.com/derneuere/django-chunked-upload@master#egg=django-chunked-upload
+#django-chunked-upload==2.0.0
 django-cryptography==1.1
 django-extensions==3.2.3
 django-filter==24.3
@@ -21,7 +22,7 @@ geopy==2.4.1
 gunicorn==23.0.0
 hdbscan==0.8.39
 matplotlib==3.9.2
-networkx==3.2.1
+networkx==3.4.2
 nltk==3.9.1
 markupsafe==3.0.2
 Pillow==10.4.0
@@ -44,7 +45,10 @@ django-q2==1.7.4
 safetensors==0.4.5
 py-cpuinfo==9.0.0
 psutil==6.1.0
-onnxruntime==1.19.2
+onnxruntime==1.20.0
+# Dependencies for blip
 timm==1.0.11
 transformers==4.46.1
+# Dependencies for mistral quantized
+llama-cpp-python==0.3.1
 django-pam==2.1.2
