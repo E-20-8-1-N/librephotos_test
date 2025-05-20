@@ -217,8 +217,10 @@ urlpatterns = [
     re_path(r"^api/locclust", dataviz.LocationClustersView.as_view()),
     re_path(r"^api/photomonthcounts", dataviz.PhotoMonthCountsView.as_view()),
     re_path(r"^api/wordcloud", dataviz.SearchTermWordCloudView.as_view()),
-    re_path(r"^api/auth/token/obtain/$", CustomTokenObtainPairView.as_view()),
-    re_path(r"^api/auth/token/refresh/$", CustomTokenRefreshView.as_view()),
+    # re_path(r"^api/auth/token/obtain/$", CustomTokenObtainPairView.as_view()),
+    # re_path(r"^api/auth/token/refresh/$", CustomTokenRefreshView.as_view()),
+    re_path(r"^api/auth/token/obtain/$", TokenObtainPairView.as_view()),
+    re_path(r"^api/auth/token/refresh/$", TokenRefreshView.as_view()),
     re_path(r"^api/auth/token/blacklist/", TokenBlacklistView.as_view()),
     re_path(
         r"^media/(?P<path>.*)/(?P<fname>.*)",
